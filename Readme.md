@@ -589,17 +589,6 @@ Bookmark these — the authoritative, continually updated sources this roadmap a
 
 ---
 
-## Contributing
-
-This roadmap grows with the community.
-
-- Found a broken link, an outdated technique, or a great free lab? **Open an issue** or **pull request**.
-- Keep additions **vendor-neutral** and **free-to-access** where possible.
-- Keep the **ethics-first, authorized-testing-only** framing intact in every contribution.
-
----
-
-
 **Learn it. Practice it. Publish it. Then try harder.**
 
 *A free, open resource for the AI security community.*
