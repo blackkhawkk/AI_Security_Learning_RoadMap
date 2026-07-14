@@ -1,10 +1,10 @@
 # The AI Security Learning Roadmap
 
-> A phase-by-phase path to mastering AI & LLM security — organized by skill level, from your first day to model-level research. Every topic is tagged **Offensive** or **Defensive** and fully detailed with what to learn, why it matters, how to practice, and how to know you've mastered it.
+> A phase-by-phase path to mastering AI & LLM security organized by skill level, from your first day to model-level research. Every topic is tagged **Offensive** or **Defensive** and fully detailed with what to learn, why it matters, how to practice, and how to know you've mastered it.
 
 This is a **free, open guide**. Work through it in phases. Each phase assumes you've completed the one before it. You do **not** need a machine-learning PhD to begin — you need a laptop, curiosity, and a willingness to practice on systems you're allowed to touch.
 
-> [!WARNING]
+
 > **Ethics first — read this once, remember it always.** Every technique here is for **authorized testing only**: systems you own, labs you built, or targets that explicitly permit testing (public bug-bounty scope, practice ranges). Using these methods against anything else is illegal in most countries. The only thing separating a security professional from a criminal is **authorization**.
 
 ---
@@ -15,15 +15,15 @@ The roadmap is split into **five tracks**. The first three are sequential skill 
 
 | Track | What it covers | Who you become |
 | --- | --- | --- |
-| **Phase 1 — Beginner** `[BEG]` | Fundamentals: how models work, your lab, first attacks | AI Security Associate |
-| **Phase 2 — Intermediate** `[INT]` | The real attack surface: RAG, agents, MCP, tooling | AI Application Pentester |
-| **Phase 3 — Advanced** `[ADV]` | Model-level attacks, automation, research-grade topics | AI/ML Security Researcher |
-| **Offensive Track** `[OFF]` | Attacking — woven through all three phases | Red Teamer |
-| **Defensive Track** `[DEF]` | Defending & assuring — woven through all three phases | Security Engineer |
+| **Phase 1 — Beginner**  | Fundamentals: how models work, your lab, first attacks | AI Security Associate |
+| **Phase 2 — Intermediate** | The real attack surface: RAG, agents, MCP, tooling | AI Application Pentester |
+| **Phase 3 — Advanced**  | Model-level attacks, automation, research-grade topics | AI/ML Security Researcher |
+| **Offensive Track**  | Attacking — woven through all three phases | Red Teamer |
+| **Defensive Track**  | Defending & assuring — woven through all three phases | Security Engineer |
 
 **Tags you'll see on every topic:**
 
-`[BEG]` Beginner · `[INT]` Intermediate · `[ADV]` Advanced · `[OFF]` Offensive · `[DEF]` Defensive
+ Beginner ·  Intermediate ·  Advanced ·  Offensive ·  Defensive
 
 **Each topic is "fully detailed" — it always includes:**
 
@@ -90,7 +90,7 @@ The roadmap is split into **five tracks**. The first three are sequential skill 
 
 ### 1.1 How AI Models Actually Work
 
-`[BEG] Beginner` · `Foundational`
+` Beginner` · `Foundational`
 
 **What it is:** The minimum mental model of a large language model you need before you can attack or defend one — no math required.
 
@@ -113,7 +113,7 @@ The roadmap is split into **five tracks**. The first three are sequential skill 
 
 ### 1.2 Build Your AI Security Lab
 
-`[BEG] Beginner` · `[DEF] Setup`
+` Beginner` · ` Setup`
 
 **What it is:** A private, legal, resettable environment where you can be as aggressive as you like without touching anyone else's systems.
 
@@ -136,7 +136,7 @@ The roadmap is split into **five tracks**. The first three are sequential skill 
 
 ### 1.3 Prompting Fundamentals
 
-`[BEG] Beginner` · `Foundational`
+` Beginner` · `Foundational`
 
 **What it is:** How prompts are *meant* to work — the necessary groundwork before you learn how they're subverted.
 
@@ -158,7 +158,7 @@ The roadmap is split into **five tracks**. The first three are sequential skill 
 
 ### 1.4 Your First Attack — Direct Prompt Injection
 
-`[BEG] Beginner` · `[OFF] Offensive`
+` Beginner` · ` Offensive`
 
 **What it is:** Making a model follow *your* instructions instead of the developer's, by typing them directly into the input.
 
@@ -179,7 +179,7 @@ The roadmap is split into **five tracks**. The first three are sequential skill 
 
 ### 1.5 Your First Defense — Basic Guardrails
 
-`[BEG] Beginner` · `[DEF] Defensive`
+` Beginner` · ` Defensive`
 
 **What it is:** The controls that sit between the user and the model — input filters, output filters — and an honest sense of what they can and can't stop.
 
@@ -209,7 +209,7 @@ The roadmap is split into **five tracks**. The first three are sequential skill 
 
 ### 2.1 The AI Application Attack Surface
 
-`[INT] Intermediate` · `Foundational`
+`Intermediate` · `Foundational`
 
 **What it is:** The full stack wrapped around a model, and every point where untrusted data can reach it.
 
@@ -233,7 +233,7 @@ The roadmap is split into **five tracks**. The first three are sequential skill 
 
 ### 2.2 Jailbreaking Techniques
 
-`[INT] Intermediate` · `[OFF] Offensive`
+` Intermediate` · ` Offensive`
 
 **What it is:** Making a model produce what its safety training was meant to refuse — attacking the model's *alignment* rather than the app's logic.
 
@@ -255,7 +255,7 @@ The roadmap is split into **five tracks**. The first three are sequential skill 
 
 ### 2.3 RAG & Data Attacks
 
-`[INT] Intermediate` · `[OFF] Offensive`
+`Intermediate` · ` Offensive`
 
 **What it is:** Attacking the retrieval pipeline — the most common enterprise AI architecture — through the knowledge base you can poison and the retrieval step you can hijack.
 
@@ -278,7 +278,7 @@ The roadmap is split into **five tracks**. The first three are sequential skill 
 
 ### 2.4 AI Agents, Tools & MCP
 
-`[INT] Intermediate` · `[OFF] Offensive`
+` Intermediate` · ` Offensive`
 
 **What it is:** Attacking systems where the model can *act* — the highest-stakes area in applied AI security, because injection here becomes real-world consequence.
 
@@ -303,7 +303,7 @@ The roadmap is split into **five tracks**. The first three are sequential skill 
 
 ### 2.5 Security Frameworks & Threat Modeling
 
-`[INT] Intermediate` · `[DEF] Defensive`
+`Intermediate` · `Defensive`
 
 **What it is:** The bridge from ad-hoc poking to systematic, professional assessment with shared vocabulary and full coverage.
 
@@ -325,7 +325,7 @@ The roadmap is split into **five tracks**. The first three are sequential skill 
 
 ### 2.6 Defensive Engineering
 
-`[INT] Intermediate` · `[DEF] Defensive`
+`Intermediate` · ` Defensive`
 
 **What it is:** Building the controls that actually reduce risk in production — and knowing their limits.
 
@@ -357,7 +357,7 @@ The roadmap is split into **five tracks**. The first three are sequential skill 
 
 ### 3.1 Automated & Advanced Offense
 
-`[ADV] Advanced` · `[OFF] Offensive`
+`Advanced` · ` Offensive`
 
 **What it is:** Scaling from manual probing to systematic, automated campaigns and cutting-edge attack classes.
 
@@ -380,7 +380,7 @@ The roadmap is split into **five tracks**. The first three are sequential skill 
 
 ### 3.2 Adversarial ML & Poisoning
 
-`[ADV] Advanced` · `[OFF] Offensive`
+` Advanced` · ` Offensive`
 
 **What it is:** The classical foundations of ML security — manipulating models at inference time and corrupting them at training time.
 
@@ -400,7 +400,7 @@ The roadmap is split into **five tracks**. The first three are sequential skill 
 
 ### 3.3 Privacy & Model-Theft Attacks
 
-`[ADV] Advanced` · `[OFF] Offensive`
+`Advanced` · `Offensive`
 
 **What it is:** Treating the model as a leaky data store, or as intellectual property to be stolen.
 
@@ -421,7 +421,7 @@ The roadmap is split into **five tracks**. The first three are sequential skill 
 
 ### 3.4 Backdoors & the Model Supply Chain
 
-`[ADV] Advanced` · `[OFF] Offensive` · `[DEF] Defensive`
+`Advanced` · ` Offensive` · `Defensive`
 
 **What it is:** Hidden behaviors baked into a model, and the untrusted pipeline models travel through to reach production.
 
@@ -443,7 +443,7 @@ The roadmap is split into **five tracks**. The first three are sequential skill 
 
 ### 3.5 Advanced Defense & Robustness
 
-`[ADV] Advanced` · `[DEF] Defensive`
+` Advanced` · ` Defensive`
 
 **What it is:** Hardening models and pipelines against the advanced attacks above.
 
@@ -465,7 +465,7 @@ The roadmap is split into **five tracks**. The first three are sequential skill 
 
 ### 3.6 Red-Team Programs & Governance
 
-`[ADV] Advanced` · `[DEF] Defensive`
+` Advanced` · `Defensive`
 
 **What it is:** Turning individual skills into repeatable programs, continuous testing, and organizational practice.
 
@@ -599,7 +599,6 @@ This roadmap grows with the community.
 
 ---
 
-<div align="center">
 
 **Learn it. Practice it. Publish it. Then try harder.**
 
